@@ -1,0 +1,60 @@
+#container{
+    width:40%;
+    background-color:rgb(5, 5, 87);
+    border:2px solid rgb(5, 5, 87);
+    border-radius:4px;
+    height:100px;
+    margin:30px 30px 30px 30px;
+
+}
+
+#container .js{
+    /* border:3px solid red; */
+    display:inline-block;
+    font-size:22px;
+    font-family:'Cambria', 'Cochin', 'Georgia, Times', 'Times New Roman', 'serif';
+    font-weight: 700;
+    margin:20px 0px 0px 20px;
+    color:white;
+}
+
+#container .js_number{
+    /* display:inline-block; */
+    font-size:22px;
+    font-family:'Cambria', 'Cochin', 'Georgia, Times', 'Times New Roman', 'serif';
+    font-weight: 700;
+    border-radius:5px;
+    text-align:right;
+    color:white;
+    background-color:rgba(238, 48, 48, 0.904);
+    padding:5px;
+    float:right;
+    margin:22px 10px 0px 0px;
+}
+
+.progress_bar_95{
+    width:95%;
+    background-color:rgba(238, 48, 48, 0.904);
+    border-radius:10px;
+    height:10px;
+    margin-top:40px;
+}
+
+.progress_bar_50{
+    width:50%;
+    background-color:rgba(238, 48, 48, 0.904);
+    border-radius:10px;
+    height:10px;
+    margin-top:40px;
+}
+
+.progress_bar_90{
+    width:90%;
+    background-color:rgba(238, 48, 48, 0.904);
+    border-radius:10px;
+    height:10px;
+    margin-top:40px;
+}
+
+
+
