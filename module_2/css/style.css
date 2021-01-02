@@ -1,0 +1,11 @@
+.first_content {
+    font-size: 20px;
+    border: 2px solid red;
+    height: 300px;
+    width: 25%;
+    margin: 22px;
+    text-align: justify;
+    display: inline-block;
+    text-align:right;
+
+}
