@@ -13,4 +13,4 @@
 - [x] git checkout [branch name]
 - [x] git merge [branch name]
 
-- [ ] git common error
+- [x] git common error
