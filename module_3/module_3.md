@@ -8,6 +8,9 @@
 - [x] git push -u origin [branch name]
 - [x] git pull
 
-- [ ] git checkout -b [branch name]
-- [ ] git branch [branch name]
-- [ ] git checkout [branch name]
+- [x] git checkout -b [branch name]
+- [x] git branch [branch name]
+- [x] git checkout [branch name]
+- [x] git merge [branch name]
+
+- [ ] git common error
