@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        nav{
+            height:50px;
+            background-color:royalblue;
+            line-height:10px;
+        }
+        ul li{
+            list-style:none;
+            padding:20px 20px;
+            
+        }
+        nav>ul>li{
+            float:left;
+        }
+        a{
+            text-decoration:none;
+            font-size:20px;
+            color:gray;
+        }
+
+        ul>li:hover{
+            background-color: brown;
+
+        }
+        ul>li:hover a{
+            color:white;
+        }
+
+        .nasted-nav{
+            visibility:hidden;
+            background-color:salmon;
+            position:absolute;
+            padding:20px;
+        }
+        nav>ul>li:hover .nasted-nav{
+            visibility:visible;
+        }
+
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Contact</a></li>
+            <li><a href="">Form</a>
+                <ul class="nasted-nav">
+                    <li><a href="">REACT_1</a> </li>
+                    <li><a href="">REACT_2</a> </li>
+                    <li><a href="">REACT_3</a></li>
+                    <li><a href="">REACT_4</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+    <p>this is the nav</p>
+</body>
+</html>
