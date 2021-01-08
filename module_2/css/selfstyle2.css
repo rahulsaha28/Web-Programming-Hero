@@ -1,0 +1,35 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+#container{
+    width:100%;
+    background-color:rgba(209, 47, 47, 0.781);
+    height:100px;
+}
+
+#container .logo{
+    font-size:30px;
+    text-align: center;
+    font-family:'Yellowtail', cursive;
+    font-weight:800;
+    color:white;
+    float:left;
+    padding:30px;
+    /* border:1px solid blue; */
+}
+
+#container .all_btn{
+    border:1px solid green;
+    font-size:16px;
+    font-weight:600;
+    font-family:sans-serif;
+    float:right;
+    padding:20px;
+}
+
+.all_btn a{
+
+    color:white;
+}
