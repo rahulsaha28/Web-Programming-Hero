@@ -14,8 +14,10 @@
 ---------------------------------------------
 - [x] link:favicon
 --------------------------------------------
-- [ ] list-style:none
-- [ ] line-height
-- [ ] ul>li VS ul li
-- [ ] visibility:hidden;
+- [x] list-style:none
+- [x] line-height
+- [x] ul>li VS ul li
+- [x] visibility:hidden;
 --------------------------------------------
+- [ ] svg
+- [ ] rect
