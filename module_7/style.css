@@ -1,0 +1,23 @@
+body{
+    font-family: 'Redressed', cursive;
+    font-size:25px;
+}
+
+.box{
+    height:200px;
+    width:400px;
+    border:2px solid red;
+    overflow:scroll;
+}
+
+.box2{
+    width:200px;
+    height:200px;
+    border:2px solid green;
+    overflow:visible;
+}
+
+/* .images img{
+    width:220px;
+    height:220px;
+} */

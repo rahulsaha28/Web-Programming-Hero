@@ -1,0 +1,14 @@
+.box{
+    width:100px;
+    height:100px;
+    border:1px solid red;
+}
+
+.outer{
+    background-color:green;
+}
+.inner{
+    background-color:grey;
+    transform:scale(.5) rotate(30deg);
+    
+}
