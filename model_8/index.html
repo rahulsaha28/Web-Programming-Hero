@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display:flex;
+        }
+        .box{
+            height:200px;
+            width:200px;
+            background-color:chocolate;
+            margin-right:5px;
+        }
+        .box-2{
+            position:absolute;
+            background-color:cornflowerblue;
+            top:0px;
+            left:0px;
+            border-radius:100px;
+        }
+
+        .box-3{
+            z-index:2;
+        }
+    </style>
+</head>
+<body>
+    <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. In, corrupti!</h1>
+    <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, fugit ducimus. Quae porro dignissimos architecto ratione officiis temporibus debitis provident?</h2>
+    <section class="container">
+        <div class="box box-1">
+            <h3>box-1</h3>
+        </div>
+        <div class="box box-2">
+            <h3>box-2</h3>
+        </div>
+        <div class="box box-3">
+            <h3>box-3</h3>
+        </div>
+        <div class="box box-4">
+            <h3>box-4</h3>
+        </div>
+    </section>
+</body>
+</html>

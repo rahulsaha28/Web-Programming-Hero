@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .photo-frame{
+            width:300px;
+            height:200px;
+            border:10px solid forestgreen;
+            border-radius:20px;
+            position:relative;
+            margin:20px;
+            overflow:hidden;
+        }
+        .photo-frame .photo img{
+            width:100%;
+            height:200px;
+            border-radius:10px;
+            transition:transform 2s ease-in-out;
+        }
+
+        .photo-frame:hover .photo img{
+            transform:translateX(300px);
+        }
+        
+        .photo-title{
+            visibility:hidden;
+            position:absolute;
+            top:0;
+            width:300px;
+            height:200px;
+        }
+
+        .photo-frame:hover .photo-title{
+            visibility:visible;
+            color:white;
+            background-color:rgba(218, 165, 32, 0.575);
+        }
+        .photo-frame:hover .photo-title h3{
+            background-color:black;
+            color:white;
+            text-align:center;
+        }
+
+        .photo-album{
+            display:flex;
+            flex-wrap:wrap;
+        }
+    </style>
+</head>
+<body>
+    <h1>My Photo Frame</h1>
+    <div class="photo-album">
+       <div class="photo-frame">
+           <div class="photo">
+               <img src="https://picsum.photos/800/800" alt="">
+            </div>
+            <div class="photo-title">
+                <h3>Lorem ipsum dolor sit amet.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate eos ipsum voluptate ducimus nihil illo perspiciatis quam rem velit non!</p>
+            </div>
+       </div>
+
+       <div class="photo-frame">
+        <div class="photo">
+            <img src="https://picsum.photos/800/800" alt="">
+         </div>
+         <div class="photo-title">
+             <h3>Lorem ipsum dolor sit amet.</h3>
+             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate eos ipsum voluptate ducimus nihil illo perspiciatis quam rem velit non!</p>
+         </div>
+    </div>
+
+    <div class="photo-frame">
+        <div class="photo">
+            <img src="https://picsum.photos/800/800" alt="">
+         </div>
+         <div class="photo-title">
+             <h3>Lorem ipsum dolor sit amet.</h3>
+             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate eos ipsum voluptate ducimus nihil illo perspiciatis quam rem velit non!</p>
+         </div>
+    </div>
+
+    <div class="photo-frame">
+        <div class="photo">
+            <img src="https://picsum.photos/800/800" alt="">
+         </div>
+         <div class="photo-title">
+             <h3>Lorem ipsum dolor sit amet.</h3>
+             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate eos ipsum voluptate ducimus nihil illo perspiciatis quam rem velit non!</p>
+         </div>
+    </div>
+
+    <div class="photo-frame">
+        <div class="photo">
+            <img src="https://picsum.photos/800/800" alt="">
+         </div>
+         <div class="photo-title">
+             <h3>Lorem ipsum dolor sit amet.</h3>
+             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate eos ipsum voluptate ducimus nihil illo perspiciatis quam rem velit non!</p>
+         </div>
+    </div>
+
+    <div class="photo-frame">
+        <div class="photo">
+            <img src="https://picsum.photos/800/800" alt="">
+         </div>
+         <div class="photo-title">
+             <h3>Lorem ipsum dolor sit amet.</h3>
+             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate eos ipsum voluptate ducimus nihil illo perspiciatis quam rem velit non!</p>
+         </div>
+    </div>
+    </div>
+</body>
+</html>
