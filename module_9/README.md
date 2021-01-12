@@ -16,3 +16,6 @@ boostrap installation
 - [x] carousel
 - [x] breakpoint
 - [ ] layout
+- [ ] [grid](https://getbootstrap.com/docs/5.0/layout/grid/)
+- [ ] [flex](https://getbootstrap.com/docs/5.0/utilities/flex/)
+- [ ]
