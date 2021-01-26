@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./bootstrap.min.css">
+    <style>
+        .first-part {
+            height: 200px;
+        }
+        .second-part{
+            box-shadow:1px 5px 5px 2px gray;
+            border-radius:.7em;
+        }
+        #login-area{
+            transition:.2s ease;
+            /* visibility: hidden; */
+        }
+        #transaction-area{
+            display:none;
+            transition:1s ease-in;
+        }
+        .card-sty{
+            border-radius:.7rem;
+        }
+        .color-1{
+            background-color:salmon;
+            color:white;
+        }
+        .color-2{
+            background-color:sandybrown;
+            color:white;
+        }
+    </style>
+</head>
+
+<body>
+    <section id="login-area">
+        <div class="container main">
+            <div class="row">
+                <div class="col-md-12 d-flex justify-content-center align-items-center first-part">
+                    <h2>Welcome to ASSI Bank</h2>
+                </div>
+                <div class="p-4 col-md-12 d-flex justify-content-center second-part">
+                    <div class="col-md-8">
+                        <div class="mb-3">
+                            <h3 class="form-label">Log in</h3>
+                            <input placeholder="email" type="text" class="form-control">
+                        </div>
+                        <div class="mb-3">
+
+                            <input placeholder="password" type="password" class="form-control">
+                        </div>
+                        <div>
+                            <button id="login" class="btn btn-primary">Enter</button>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="transaction-area" class="mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card bg-primary card-sty">
+                        <div class="card-body">
+                            <h5 class="card-title">Deposite</h5>
+                            <h1>$ <span id="dep-place">00</span></h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card color-1 card-sty">
+                        <div class="card-body">
+                            <h5 class="card-title">Withdraw</h5>
+                            <h1>$ <span id="wit-place">00</span></h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card color-2 card-sty">
+                        <div class="card-body">
+                            <h5 class="card-title">Balance</h5>
+                            <h1>$ <span id="balance-place">00</span></h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card mt-5 mb-5 second-part">
+                        <div class="card-body">
+                            <h5 class="card-title">Deposit</h5>
+                            <input id="dep-input" placeholder="$ amount you want to Deposit" type="text" class="form-control mb-2">
+                            <button id="dep" class="btn btn-success">Deposit</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card mt-5 mb-5 second-part">
+                        <div class="card-body">
+                            <h5 class="card-title">Withdraw</h5>
+                            <input id="withdraw-input" placeholder="$ amount you want to Withdraw" type="text" class="form-control mb-2">
+                            <button id="withdraw" class="btn btn-success">Withdraw</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="./bootstrap.bundle.min.js"></script>
+    <script src="./index.js"></script>
+</body>
+
+</html>
