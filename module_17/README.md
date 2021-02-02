@@ -10,3 +10,5 @@ Document Object Model in real time.
 - [ ] querySelectorAll------------>NODEList
 - [ ] createElement
 - [ ] appendChild
+- [ ] childNodes
+- [ ] parentNode

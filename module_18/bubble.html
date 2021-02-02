@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        button{
+            background-image:linear-gradient(30deg, salmon, rgb(201, 99, 88));
+            border:none;
+            color:white;
+            font-size:1.2rem;
+            width:200px;
+            height:50px;
+            border-radius:5px;
+            box-shadow:0px 0px 4px gray;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <h2>My List Are Here</h2>
+        <button id="addItem">
+            add new item
+        </button>
+        <ul id="myList">
+            <li  id="first" class="item">Lorem ipsum dolor sit amet.</li>
+            <li class="item">Officia iusto et ratione autem.</li>
+            <li class="item">Voluptatem quod eum nemo beatae?</li>
+            <li class="item">Quam nulla mollitia laudantium blanditiis.</li>
+            <li class="item">Vel libero voluptatum doloribus aliquam.</li>
+        </ul>
+    </div>
+
+    <script>
+        // let items = document.getElementsByClassName("item");
+        // for(let i=0; i<items.length; i++){
+        //     items[i].addEventListener('click', function(event){
+        //         this.remove()
+        //     })
+        // }
+
+        //     document.getElementById("myList").addEventListener("click", function(event){
+        //         event.target.remove();
+        //         console.log(event.target);
+        //     })
+
+
+
+        // let count = 0;
+        // document.getElementById("addItem").addEventListener("click", function(event){
+        //     let p = document.getElementById("myList");
+        //     let newItem = document.createElement("li");
+        //     newItem.setAttribute("class", "item");
+        //     newItem.innerText = "jhi- "+(count++);
+        //     p.appendChild(newItem);
+        // })
+        document.getElementById("first").addEventListener("click", function(event){
+            console.log("first event.");
+            // event.stopPropagation();
+        })
+        document.getElementById("container").addEventListener("click", function(event){
+            document.querySelector("h2").style.color = "salmon";
+            console.log(event.target.innerText);
+        })
+    </script>
+</body>
+</html>
